@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
 
-ALLOWED_HOSTS = ["https://hng12stage0-e2hb.onrender.com", "*"]
+ALLOWED_HOSTS = ["https://hng12stage1-production-d636.up.railway.app", "*"]
 
 
 # Application definition
